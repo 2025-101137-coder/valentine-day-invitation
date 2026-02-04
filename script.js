@@ -1,7 +1,8 @@
 let leftPos = 0
 let bottomPos = 0
 document.getElementById('yessir').addEventListener('click', () => {
-    alert('Congratulations! You have been invited to a Valentine\'s Day dinner. Please RSVP by February 10th. We hope to see you there!')
+    alert('Hi Ishh! You’re warmly invited to spend Valentine’s Day with me. It would mean a lot to share this special day together. Let’s enjoy good moments, simple laughs, and meaningful conversations. Your presence alone would make the day more special. I hope you can join me and make this Valentine’s Day memorable. 💌
+')
 })
 document.getElementById('nooo').addEventListener('mouseover', () => {
     leftPos = Math.floor(Math.random() * (50 - (-50) + 1)) + (-50);
